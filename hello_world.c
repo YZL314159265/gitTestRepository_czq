@@ -10,8 +10,9 @@ int main(int argc, char *argv[]){
 	FILE *fp1=fopen("in.txt","r");
 	if(!fp1)printf("can not open file\n");
 	else{
-		fscanf(fp1,"%s",str);
-		printf("%s\n",str);
+		while(fscanf(fp1,"%s",str)!=EOF){
+			printf("%s\n",str);
+		}
 	}
 	
 	system("pause");
