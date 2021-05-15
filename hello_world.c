@@ -4,6 +4,7 @@
 
 int main(int argc, char *argv[]){
 	printf("hello world\n");
+	printf("gitTest\n");
 	system("pause");
 	return true;
 }
