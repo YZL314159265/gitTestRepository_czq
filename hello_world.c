@@ -6,6 +6,8 @@ int main(int argc, char *argv[]){
 	printf("hello world\n");
 	printf("gitTest\n");
 	
+	printf("change in branch_c\n");
+	
 	char str[200];
 	FILE *fp1=fopen("in.txt","r");
 	if(!fp1)printf("can not open file\n");
