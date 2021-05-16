@@ -7,6 +7,7 @@ int main(int argc, char *argv[]){
 	printf("gitTest\n");
 	
 	printf("change in master\n");
+	printf("change in branch_c\n");
 	
 	char str[200];
 	FILE *fp1=fopen("in.txt","r");
